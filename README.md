@@ -2,6 +2,8 @@
 
 -create React App
 -configured TailwindCSS
+-Header
+-Login Form
 
 #features
 -Login/Sign Up

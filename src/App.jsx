@@ -1,13 +1,15 @@
 import { useState } from 'react'
+import { BrowserRouter } from "react-router-dom";
 import './App.css'
+import Body from './components/Body'
 
 function App() {
  
   return (
     <>
-     <h1 className="text-3xl font-bold underline bg-amber-300" >
-      Hello world!
-     </h1>
+    <BrowserRouter>
+      <Body />
+    </BrowserRouter>
     </>
   )
 }
